@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2534823c-65ba-41c4-bd26-2f2a215598d6" name="Changes" comment="1">
+    <list default="true" id="2534823c-65ba-41c4-bd26-2f2a215598d6" name="Changes" comment="плохой коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <workItem from="1680006155844" duration="3414000" />
       <workItem from="1680011096356" duration="385000" />
       <workItem from="1680185528847" duration="7366000" />
-      <workItem from="1680535633547" duration="618000" />
+      <workItem from="1680535633547" duration="12557000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1680190467876</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680190467876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="плохой коммит">
+      <created>1680536377204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680536377204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="плохой коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="плохой коммит" />
   </component>
 </project>
