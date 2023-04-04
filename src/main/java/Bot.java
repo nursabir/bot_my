@@ -32,7 +32,7 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "6187338436:AAGLeT0LnEoHjRLNm9mwp6C5paOuHL077jc";
+        return "";
     }
 
     @Override
@@ -121,66 +121,6 @@ public class Bot extends TelegramLongPollingBot {
             }
         }
     }
-
-
-//    public void copyMessage(Long who, Integer msgId) {
-//        CopyMessage cm = CopyMessage.builder()
-//                .fromChatId(who.toString())  //We copy from the user
-//                .chatId(who.toString())      //And send it back to him
-//                .messageId(msgId)            //Specifying what message
-//                .build();
-//        try {
-//            execute(cm);
-//        } catch (TelegramApiException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-
-//    private void sendMessageWithMarkup(long chatId, String textToSend, ReplyKeyboardMarkup replyKeyboardMarkup) throws TelegramApiException {
-//        SendMessage message = new SendMessage();
-//        message.setChatId(String.valueOf(chatId));
-//        message.setText(textToSend);
-//        if (calculate) {
-//            // разметка для клавиатуры
-//            message.setReplyMarkup(replyKeyboardMarkup);
-//            calculate = false;
-//        }
-//        execute(message);
-//    }
-
-//    private void sendMessage(long chatId, String textToSend) throws TelegramApiException {
-//        SendMessage message = new SendMessage();
-//        message.setChatId(String.valueOf(chatId));
-//        message.setText(textToSend);
-//
-//        execute(message);
-//    }
-
-//    public ReplyKeyboardMarkup getKeyboardMarkup(){
-//        ReplyKeyboardMarkup keyboardMarkup = new ReplyKeyboardMarkup();
-//        // список рядов
-//        List<KeyboardRow> keyboardRows = new ArrayList<>();
-//        // конкретный ряд
-//        KeyboardRow row = new KeyboardRow();
-//        row.add("func0");
-//        row.add("func1");
-//        keyboardRows.add(row);
-//        KeyboardRow row2 = new KeyboardRow();
-//        row2.add("func2");
-//        row2.add("func3");
-//        keyboardRows.add(row2);
-//        KeyboardRow row3 = new KeyboardRow();
-//        row3.add("func4");
-//        row3.add("func5");
-//        keyboardRows.add(row3);
-//        KeyboardRow row4 = new KeyboardRow();
-//        row4.add("func6");
-//        keyboardRows.add(row4);
-//        keyboardMarkup.setKeyboard(keyboardRows);
-//       // keyboardMarkup.setOneTimeKeyboard(true);
-//        return keyboardMarkup;
-//    }
-
 
     public void sendText(Long who, String what) {
         SendMessage sm = SendMessage.builder()
