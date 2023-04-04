@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2534823c-65ba-41c4-bd26-2f2a215598d6" name="Changes" comment="плохой коммит">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2534823c-65ba-41c4-bd26-2f2a215598d6" name="Changes" comment="simple bot for calculate math functions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <workItem from="1680006155844" duration="3414000" />
       <workItem from="1680011096356" duration="385000" />
       <workItem from="1680185528847" duration="7366000" />
-      <workItem from="1680535633547" duration="12557000" />
+      <workItem from="1680535633547" duration="12860000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1680190467876</created>
@@ -86,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680536377204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="simple bot for calculate math functions">
+      <created>1680594935104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680594935104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="плохой коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="плохой коммит" />
+    <MESSAGE value="simple bot for calculate math functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple bot for calculate math functions" />
   </component>
 </project>
